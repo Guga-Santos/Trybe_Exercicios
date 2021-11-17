@@ -1,0 +1,17 @@
+Neste dia 01 do módulo 02, fomos apresentados ao git e aprendemos sobre a importância de
+se utilizar um sistema de controle de versão. 
+Nos foi ensinado a como instalar o git através do terminal, em como salvar nossos projetos
+em um repositório local e em como controlar as versões e alterações em nossos arquivos.
+
+Foi nos mostrado como funciona a conexão entre local e remoto e como fazer essa interação.
+
+Aprendemos:
+- O que é Branch e como criar, deletar e navegar entre eles.
+- O que é Commit e como funcionam.
+- O que é Merge e como utilizá-lo.
+
+Aprendemos também, a:
+- Criar uma conta no github.
+- Criar e adicionar uma chave SSH em nossa conta github.
+- Navegar em nosso repositório do github.
+- Fazer alterações e conexões entre nosso repositório local e o github.
