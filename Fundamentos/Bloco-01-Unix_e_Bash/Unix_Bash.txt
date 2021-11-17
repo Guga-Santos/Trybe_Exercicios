@@ -1,0 +1,33 @@
+Fundamentos - Bloco 01 - 1.3 - Unix & Bash
+
+Neste módulo nos foi ensinado conceitos básicos sobre Unix. 
+Aprendemos sobre como o Bash é utilizado, o que é Kernel, Shell e suas interações.
+Nos foi apresentado alguns comandos (terminal utilities), tais como:
+
+ls
+ls -a
+cd 
+cd ~
+mkdir 
+pwd 
+cp
+cat
+mv
+rm
+rmdir
+rm -rf
+rm *.txt
+touch
+echo
+cat 
+less 
+head 
+tail 
+grep (-i ; '' ; -iv ; -in ; -ic)
+wc (-w ; -l ; -c)
+
+Assim como alguns comandos de ajuda no terminal:
+ls *
+ls ?
+man
+whatis
