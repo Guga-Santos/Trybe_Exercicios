@@ -3,4 +3,9 @@ O que eu vou aprender na Trybe:
 - Unix
 - Bash
 - Git
+<<<<<<< HEAD:Fundamentos/02-Bloco-Git_Github_Internet/02-Entendendo_os_comandos/trybe-skills-changes.txt
 - JavaScript
+=======
+- Html
+- CSS
+>>>>>>> 66e86106332ddab85097773f9671a0fb1aee303c:Fundamentos/Bloco-02-Git_Github_Internet/02-Entendendo_os_comandos/trybe-skills-changes.txt
