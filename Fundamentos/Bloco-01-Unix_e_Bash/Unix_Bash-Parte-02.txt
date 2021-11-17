@@ -1,0 +1,31 @@
+Neste dia, foi nos mostrado como trabalhar com operadores dentro do terminal, 
+utilizando alguns comandos, tais como:
+Operadores: > e >>
+cat > exemplo.txt = Cria o arquivo "exemplo.txt" e adiciona valores dentro do arquivo.
+                    Caso o arquivo já exista, ele substituirá os valores existentes por
+                    novos valores.
+
+cat >> exemplo.txt = Adiciona valores ao arquivo "exemplo.txt" sem alterar os valores
+                     pré-existentes.
+
+cat a.txt b.txt > ab.txt = Caso o arquivo ab.txt exista, ele irá substituir os valores
+                           do aquivo pela concatenação dos valores dos arquivos a.txt 
+                           e b.txt. Caso o arquivo ab.txt não exista, ele também será
+                           criado antes da concatenação.
+
+sort exemplo.txt = Ordena alfabeticamente, no terminal, o arquivo "exemplo.txt"
+
+sort exemplo.txt > ordem.txt = Cria o arquivo "ordem.txt", caso ele não exista, e subs-
+                               titui/adiciona os valores de "exemplo.txt" ordenados.
+
+Aprendemos também, nesta aula, sobre Permissões e Níveis de acesso.
+Fomos apresentados ao operador | que permite utilizar mais de um comando em um código.
+
+Ex: who | sort = Pega o output do comando 'who' e utiliza como input do comando sort.
+
+Aprendemos como alterar os níveis de permissão e o que significa cada quadro e espaço 
+dentro das informações dadas pelo terminal: ex: drwxrwxr-x
+
+E, para finalizar, aprendemos sobre Processos e Jobs.
+Nos foi ensinado como colocar processos em segundo plano, a trazê-los de volta ao
+primeiro plano e como suspender e matar processos.
