@@ -1,0 +1,20 @@
+h1, p, li {
+    text-align: center;
+}
+
+ol:hover {
+    background-color: cyan;
+}
+
+li:hover {
+    background-color: rgb(45, 158, 158);
+}
+
+li:active {
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+li {
+    list-style: none;
+}
