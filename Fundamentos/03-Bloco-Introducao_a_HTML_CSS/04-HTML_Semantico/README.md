@@ -1,0 +1,1 @@
+Neste dia 04, aprendemos sobre HTML semântico e sua finalidade. Aprendemos a utilizar tags semanticas que carregam sentido ao seu conteudo. Aprendemos, também, a trabalhar com elementos de bloco e elementos inline.
