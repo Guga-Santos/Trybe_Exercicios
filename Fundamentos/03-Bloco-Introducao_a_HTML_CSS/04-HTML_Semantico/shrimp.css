@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #ffb602;
     margin: 0%;
 }
 
@@ -36,19 +36,36 @@ li {
     margin-top: 4px; 
 }
 .button {
-    background-color: rgb(207, 162, 14);
-  border: none;
+    background-color: #faa200;
+  border: 1px SOLID black;
   color: white;
+  width: 222px;
   padding: 15px 32px;
   text-align: center;
   display: inline-block;
   font-size: 16px;
   font-family: 'comic neue', cursive; 
-  margin: 4px 2px;
+  margin: 4px 5px;
   cursor: pointer;
 }
 
 .button:hover {
     background-color: rgb(132, 0, 255);
     font-size: larger;
+}
+
+main {
+    background-color: #ffb602;
+    display: block;
+    height: 1200px;
+    margin-top: 10px;
+}
+
+section {
+    background-color: white;
+    display: block;
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    
 }
