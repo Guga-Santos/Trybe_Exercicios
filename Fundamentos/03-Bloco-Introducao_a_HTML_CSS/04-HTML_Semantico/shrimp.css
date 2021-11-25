@@ -15,7 +15,7 @@ body {
     text-shadow: 4px 4px black;
 }
 
-img {
+.imagem-topo {
     background-image: url(./imagens/BackShrimp.jpg);
     background-size: cover;
     width: 100%;
@@ -66,6 +66,33 @@ section {
     display: block;
     height: 90%;
     width: 90%;
-    margin: auto;
-    
+    margin: auto;    
+}
+
+.olhos {
+    width: 300px;
+    padding: 20px 20px;  
+    position: absolute;
+    z-index: 1;  
+}
+
+h2 {
+    background-color: #ffb602;
+    display: block;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px 0px 10px 10px;
+    position: absolute;
+    z-index: 3;
+    left: 100px;
+    top: 730px
+}
+
+.balao {
+    width: 350px;
+    height: 215px;
+    padding: 15px;
+    position: absolute;
+    z-index: 2;
+    left:390px;
 }
