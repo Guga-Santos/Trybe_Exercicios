@@ -2,6 +2,19 @@ body {
     background-color: black;
     margin: 0%;
 }
+
+.cabeçalho{
+    background-color: red;
+    display: inline-block;
+    width: 100%;
+    color: white;
+    font-family: 'Permanent marker', cursive;
+    font-size: 45px;
+    text-align: center;
+    margin: auto;
+    text-shadow: 4px 4px black;
+}
+
 img {
     background-image: url(./imagens/BackShrimp.jpg);
     background-size: cover;
@@ -23,14 +36,19 @@ li {
     margin-top: 4px; 
 }
 .button {
-    background-color: orangered;
+    background-color: rgb(207, 162, 14);
   border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
   display: inline-block;
   font-size: 16px;
-  font-family: comic neue, sans-serif; 
+  font-family: 'comic neue', cursive; 
   margin: 4px 2px;
   cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(132, 0, 255);
+    font-size: larger;
 }
