@@ -28,3 +28,5 @@ converte(-23)
 converte(110)
 
 converte(68)
+
+converte (-1)

@@ -8,4 +8,4 @@ console.log(lucro)
 
 lucros(100,150)
 lucros(200,400)
-lucros(100,110)
+lucros(100,111)
