@@ -7,8 +7,8 @@ let queenRowPosition = 6
 let queenColumnPosition = 4
 
 // Posição do oponente:
-let opponentRowPosition = 5
-let opponentColumnPosition = 5
+let opponentRowPosition = 6
+let opponentColumnPosition = 8
 
 // Verifica se o ataque foi bem sucedido:
 let canAttack = false;
