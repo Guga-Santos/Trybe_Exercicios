@@ -40,11 +40,20 @@ let info2 = {
     recorrente: 'Sim'
 }
 
-console.log(info.personagem + ' e ' + info2.personagem)
-console.log(info.origem + ' e ' + info2.origem)
-console.log(info.nota + ' e ' + info2.nota)
-if(info.recorrente === 'Sim' && info.recorrente === info2.recorrente) {
-    console.log("Ambos recorrentes")
+// console.log(info.personagem + ' e ' + info2.personagem)
+// console.log(info.origem + ' e ' + info2.origem)
+// console.log(info.nota + ' e ' + info2.nota)
+// if(info.recorrente === 'Sim' && info.recorrente === info2.recorrente) {
+//     console.log("Ambos recorrentes")
+// }
+
+for (let i in info, info2) {
+    if (info[i] !== info2[i]) {
+        console.log(info[i] + " e " + info2[i])
+    }
+}
+if (info.recorrente == info2.recorrente) {
+    console.log('Ambos recorrentes')
 }
 
 console.log() // Apenas um espaço
