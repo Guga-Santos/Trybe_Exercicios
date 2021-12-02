@@ -95,3 +95,18 @@ function numeroQueMaisRepete(array) {
 }
 
 console.log(numeroQueMaisRepete([2, 3, 2, 5, 8, 2, 3]))
+
+console.log() // Apenas um espaço
+// 6 - Crie uma função que receba um número inteiro N e retorne o somatório de todos os números de 1 até N.
+console.log("Exercício 06:")
+
+function somaDosNumeros(n) {
+    let soma = 0;
+    for(let i = 1; i <= n; i +=1) {
+        soma += i
+    }
+    return soma
+}
+
+console.log(somaDosNumeros(10))
+
