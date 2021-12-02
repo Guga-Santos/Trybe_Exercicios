@@ -69,3 +69,29 @@ function nomeMaior(array) {
     console.log(maior)
 }
 nomeMaior(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'])
+
+console.log() // Apenas um espaço
+// 5 -Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
+console.log("Exercício 05:")
+
+function numeroQueMaisRepete(array) {
+    let contador = 0
+    let maisRepetido = 0
+    let indice;
+    for (let i = 0; i < array.length; i += 1) {
+        for (let j = 0; j < array.length; j += 1){
+            if(array[j] === array[i]) {
+                contador += 1
+            }
+
+        }
+        if(contador > maisRepetido) {
+            maisRepetido = contador;
+            indice = array[i];
+        }
+        contador = 0
+    }
+    return "O número mais repetido é " + indice
+}
+
+console.log(numeroQueMaisRepete([2, 3, 2, 5, 8, 2, 3]))
