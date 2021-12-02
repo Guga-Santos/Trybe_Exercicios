@@ -110,3 +110,20 @@ function somaDosNumeros(n) {
 
 console.log(somaDosNumeros(10))
 
+console.log() // Apenas um espaço
+// 7 - Crie uma função que receba uma string word e outra string ending . Verifique se a string ending é o final da string word . Considere que a string ending sempre será menor que a string word.
+console.log("Exercício 07:")
+
+function compara(word, end) {
+    let comparador = ''
+    let percorrer = word.length - end.length
+    for(let i = percorrer; i < word.length; i += 1) {
+        comparador += word[i]
+    }
+if (end === comparador) {
+    return true;
+} else {
+    return false;
+}
+}
+console.log(compara("trybe", "be"))
