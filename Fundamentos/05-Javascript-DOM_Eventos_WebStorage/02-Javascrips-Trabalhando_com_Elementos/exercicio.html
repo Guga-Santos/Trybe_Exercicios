@@ -91,6 +91,21 @@
       imagem.src = 'https://picsum.photos/200';
       localSection2.appendChild(imagem)
 
+      let localSection3 = document.querySelector('.right-content');
+      let ol = document.createElement('ol')
+      ol.className = "lista-numeros"
+      localSection3.appendChild(ol)
+      
+      let localOl = document.querySelector('.lista-numeros')
+      let lista = ["Um", "Dois", "Três", "Quatro", "Cinco", "Seis", "Sete", "Oito", "Nove", "Dez"];
+      for (let i = 0; i < lista.length; i += 1) {
+          let numeros = lista[i]
+
+          let listaDeNumeros = document.createElement('li');
+          listaDeNumeros.innerText = numeros
+
+          localOl.appendChild(listaDeNumeros)
+      }
 
   </script>
   </body>
