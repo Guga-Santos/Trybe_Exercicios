@@ -58,11 +58,15 @@
   <body>
   <script>
       let local = document.querySelector('body');
+
       let h1 = document.createElement('h1');
       h1.innerText = "Exercício 5.2 - JavaScript DOM";
       local.appendChild(h1)
-
       
+      let main = document.createElement('main');
+      main.className = 'main-content'
+      local.appendChild(main)
+
   </script>
   </body>
 </html>
