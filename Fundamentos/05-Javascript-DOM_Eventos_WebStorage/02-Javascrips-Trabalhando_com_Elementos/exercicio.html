@@ -55,7 +55,7 @@
       }
     </style>
   </head>
-  <body>
+  <body> 
   <script>
       let local = document.querySelector('body');
 
@@ -66,6 +66,14 @@
       let main = document.createElement('main');
       main.className = 'main-content'
       local.appendChild(main)
+      
+      let localMain = document.querySelector('.main-content');
+      let section = document.createElement('section');
+      section.className = 'center-content'
+      localMain.appendChild(section)
+
+
+     
 
   </script>
   </body>
