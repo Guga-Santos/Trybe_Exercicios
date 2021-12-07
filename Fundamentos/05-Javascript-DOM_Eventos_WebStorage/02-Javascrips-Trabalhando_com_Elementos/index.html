@@ -44,6 +44,29 @@
     // Agora acesse o terceiroFilho a partir de pai .
      document.getElementById('pai').firstElementChild.nextElementSibling.nextElementSibling.style.color = 'green'
 
+    //  CRIANDO ELEMENTOS:
+
+    // Crie um irmão para elementoOndeVoceEsta .
+     let sectionIrmao = document.createElement('section');
+     sectionIrmao.className = 'irmaoDoElemento'
+     element.parentElement.appendChild(sectionIrmao)
+
+    // Crie um filho para elementoOndeVoceEsta .
+     let filhoDoElement = document.createElement('section')
+     filhoDoElement.className = 'filhoDoElemento'
+     element.appendChild(filhoDoElement)
+
+    //  Crie um filho para primeiroFilhoDoFilho .
+    let filhoDoPrimeiroFilho = document.createElement('section');
+    filhoDoPrimeiroFilho.className = 'filhoDoPrimeiroFilhoDoFilho'
+    element.firstElementChild.appendChild(filhoDoPrimeiroFilho)
+
+    // A partir desse filho criado, acesse terceiroFilho .
+    console.log(document.querySelector('.filhoDoPrimeiroFilhoDoFilho').parentElement.parentElement.nextElementSibling)
+    
+
+
+
   </script>
 </body>
 </html>
