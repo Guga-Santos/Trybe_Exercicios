@@ -107,6 +107,18 @@
           localOl.appendChild(listaDeNumeros)
       }
 
+      function adicionaTag(n) {
+          for(let i = 0; i < n; i += 1) {
+              let h3 = document.createElement('h3')
+              localMain.appendChild(h3)
+          }
+      }
+      adicionaTag(3)
+
+      localSection2.style.margin = "auto"
+      localSection3.style.margin = "auto"
+      document.querySelector('h1').style.textAlign = 'center'
+
   </script>
   </body>
 </html>
