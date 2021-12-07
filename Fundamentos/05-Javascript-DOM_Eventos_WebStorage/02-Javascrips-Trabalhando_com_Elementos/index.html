@@ -26,22 +26,24 @@
       <section id="quartoEUltimoFilho"></section>
     </section>
   </main>
-  <script src="script.js"></script>
   <script>
-      let elemento = document.getElementById('elementoOndeVoceEsta');
-      
-      elemento.parentElement.style.color = 'blue'
+    // Acesse o elemento elementoOndeVoceEsta .
+     let element = document.getElementById('elementoOndeVoceEsta');
+    // Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
+     element.parentElement.style.color = 'blue'
+    // Acesse o primeiroFilhoDoFilho e adicione um texto a ele.
+     element.firstElementChild.innerText = "Adicionando texto ao primeiroFilhoDoFilho"
+    // Acesse o primeiroFilho a partir de pai .
+     element.parentElement.firstElementChild.innerText = "Acessando o primeiroFilho a partir do pai"
+    // Acessando o primeiroFilho a partir de elementoOndeVoceEsta:
+     element.previousElementSibling.style.color = 'orange'
+    // Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta .
+     element.nextSibling.textContent = "Mudei o 'Atenção'!"
+    // Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta .
+     element.nextElementSibling.innerText = "Aqui é o terceiroFilho"
+    // Agora acesse o terceiroFilho a partir de pai .
+     document.getElementById('pai').firstElementChild.nextElementSibling.nextElementSibling.style.color = 'green'
 
-      document.getElementById('primeiroFilhoDoFilho').innerText = 'Não se preocupe! Você está aprendendo!'
-
-      document.getElementById('pai').firstElementChild.style.width = '50%'
-      document.getElementById('pai').firstElementChild.style.height = '50px'
-      document.getElementById('pai').firstElementChild.style.border = '2px solid black'
-
-      document.getElementById('elementoOndeVoceEsta').previousElementSibling.style.borderRadius = '5px'
-      console.log(document.getElementById('elementoOndeVoceEsta').nextSibling)
-      console.log(document.getElementById('elementoOndeVoceEsta').nextElementSibling)
-      console.log(document.getElementById('pai').firstElementChild.firstElementChild)
   </script>
 </body>
 </html>
