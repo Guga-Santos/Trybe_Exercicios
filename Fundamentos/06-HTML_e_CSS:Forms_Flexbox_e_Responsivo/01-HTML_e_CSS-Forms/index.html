@@ -50,7 +50,6 @@
                 <input type="text" name="cidade" id="input-cidade" required maxlength="28">
               </div>
             </div>
-
             <div class="linha-form">
               <div class="conteudo-linha">
                 <label for="input-estado">Estado</label>
@@ -86,7 +85,44 @@
                 </select>
               </div>
             </div>
+            <div class="linha-form">
+              <div class="conteudo-linha">
+                <label for="input-moradia">Moradia</label>
+                <br>
+                <input type="radio" name="moradia" id="input-moradia" required checked>
+                <label for="moradia">Casa</label>
+
+                <input type="radio" name="moradia" id="input-moradia" required>
+                <label for="moradia">Apartamento</label>
+              </div>
+            </div>
         </fieldset>
+        <fieldset>
+          <div class="linha-form">
+            <div class="conteudo-linha">
+              <label for="input-curriculo">Resumo do Currículo</label>
+              <br>
+             <textarea name="curriculo" id="input-curriculo" cols="30" rows="6" maxlength="1000" required></textarea>
+            </div>
+          </div>
+          <div class="linha-form">
+            <div class="conteudo-linha">
+              <label for="input-cargo">Cargo</label>
+              <br>
+              <input type="text" name="cargo" id="input-cargo" required maxlength="40">
+            </div>
+          </div>
+          <div class="linha-form">
+            <div class="conteudo-linha">
+              <label for="input-descricao">Descrição do Cargo</label>
+              <br>
+             <textarea name="descricao-cargo" id="input-descricao" cols="30" rows="6" maxlength="500" required></textarea>
+            </div>
+          </div>
+        </fieldset>
+        <div class="linha-form">
+          <button type="submit">Enviar</button>
+        </div>
     </form>
 </body>
 <script src="script.js"></script>
