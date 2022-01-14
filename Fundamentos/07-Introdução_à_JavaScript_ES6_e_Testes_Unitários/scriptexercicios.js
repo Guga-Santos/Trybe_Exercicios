@@ -90,3 +90,13 @@ function palavraMaior(string) {
 }
 palavraMaior("Antônio foi no banheiro e não sabemos o que aconteceu");
 
+
+const teste = {
+    nome: 'Gustavo',
+    sobrenome: 'Santos',
+    idade: 37,
+    casado: true
+}
+
+console.log(Object.entries(teste))
+  
