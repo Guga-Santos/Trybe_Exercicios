@@ -71,6 +71,7 @@ function smallerName() {
 
     books.forEach(element => {
         if(element.name.length < nameBook.length) {
+        // if(!nameBook || element.name.length < nameBook.length) 
             nameBook = element.name
         }
     });
