@@ -15,3 +15,18 @@ const newEmployees = (emailCreate) => {
   };
 
   console.log(newEmployees(emailCreate))
+
+//   -------------------------------------------------------
+// 2 - Desenvolva uma HOF que retorna o resultado de um sorteio. Esta HOF irá gerar um número aleatório entre 1 e 5 recebendo como parâmetros o número apostado e uma função que checa se o número apostado é igual ao número sorteado. O retorno da sua HOF deve ser uma string (Ex: "Tente novamente" ou "Parabéns você ganhou").
+
+const sorteio = (numero, sorte, mensagem) => {
+    console.log(mensagem)
+};
+
+const deuBom = () => 'Parabéns, você ganhou!';
+
+const deuRuim = () => 'Ixi, tenta de novo, campeão!';
+
+const sorte = () => parseInt(Math.random() * 5)
+
+sorteio(4, sorte(), deuruim())
