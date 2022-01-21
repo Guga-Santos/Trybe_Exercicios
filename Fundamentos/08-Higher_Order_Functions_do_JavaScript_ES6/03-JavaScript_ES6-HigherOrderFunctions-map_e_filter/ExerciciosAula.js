@@ -15,8 +15,14 @@ const cities = [
 //  1 -Encontre todas as cidades da região Nordeste (NE)
 
 
-const cidadesNordeste = (array) => {
-    return array.filter((objeto) => objeto.region === 'NE');
-};
+// const cidadesNordeste = (array) => {
+//     return array.filter((objeto) => objeto.region === 'NE');
+// };
 
-console.table(cidadesNordeste(cities))
+// console.table(cidadesNordeste(cities))
+
+//  2 - Encontre todas as cidades do estado de Tocantins (TO)
+
+const cidadesTO = (array) => array.filter((objeto) => objeto.state === 'TO');
+
+console.table(cidadesTO(cities))
