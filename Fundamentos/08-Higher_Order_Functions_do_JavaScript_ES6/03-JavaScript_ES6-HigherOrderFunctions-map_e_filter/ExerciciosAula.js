@@ -29,6 +29,6 @@ const cities = [
 
 //   3 - Encontre todas as cidades que comecem com a letra C
 
-const cidadesC = (array) => array.filter((objeto) => objeto.name[0] === 'C')
+const cidadesC = (array) => array.filter((objeto) => objeto.name[0] === 'C');
 
-console.table(cidadesC(cities))
+console.table(cidadesC(cities));
