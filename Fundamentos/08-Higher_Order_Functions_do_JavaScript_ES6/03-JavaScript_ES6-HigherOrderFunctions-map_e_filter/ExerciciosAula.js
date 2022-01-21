@@ -23,6 +23,12 @@ const cities = [
 
 //  2 - Encontre todas as cidades do estado de Tocantins (TO)
 
-const cidadesTO = (array) => array.filter((objeto) => objeto.state === 'TO');
+// const cidadesTO = (array) => array.filter((objeto) => objeto.state === 'TO');
 
-console.table(cidadesTO(cities))
+// console.table(cidadesTO(cities))
+
+//   3 - Encontre todas as cidades que comecem com a letra C
+
+const cidadesC = (array) => array.filter((objeto) => objeto.name[0] === 'C')
+
+console.table(cidadesC(cities))
