@@ -66,18 +66,30 @@ const books = [
 //   Retorne o nome do livro de menor nome.
 //   Dica: use a função forEach .
 
+// function smallerName() {
+//     let nameBook= "Um titulo de livro extremamente longo para não ter erro."
+
+//     books.forEach(element => {
+//         if(element.name.length < nameBook.length) {
+//         // if(!nameBook || element.name.length < nameBook.length) 
+//             nameBook = element.name
+//         }
+//     });
+
+
+//     return nameBook;
+//   }
+
 function smallerName() {
-    let nameBook= "Um titulo de livro extremamente longo para não ter erro."
+  let nameBook;
+  
+  books.forEach((obj) => {
+    if (!nameBook || obj.name.length < nameBook.length) {
+     nameBook = obj.name
+    }
+    })
+    return nameBook
+}
 
-    books.forEach(element => {
-        if(element.name.length < nameBook.length) {
-        // if(!nameBook || element.name.length < nameBook.length) 
-            nameBook = element.name
-        }
-    });
+console.log(smallerName())
 
-
-    return nameBook;
-  }
-
-  console.log(smallerName())

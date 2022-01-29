@@ -77,7 +77,9 @@ const expectedResult = 43;
 //   }
 
 // Refatorando 02 -
-const averageAge = () => books.reduce((acc, curr, index, arr) => acc += (curr.releaseYear - curr.author.birthYear ), 0 ) / books.length;
+// const averageAge = () => books.reduce((acc, curr) => acc += (curr.releaseYear - curr.author.birthYear ), 0 ) / books.length;
+
+const averageAge = books.map((book) => book.releaseYear - book.author.birthYear).reduce((acc, curr) => curr + acc) / books.length
 
 
-console.log(averageAge())
+console.log(averageAge)

@@ -7,9 +7,7 @@ const names = [
   ];
   
   function containsA() {
-      const letraA = names.reduce((acc, curr) => acc += curr.split('').reduce((acc2, curr2) => curr2 == "a"|| curr2 == "A" ? acc2 += 1 : acc2, 0), 0)
-      return letraA
-   
+      return names.reduce((acc, curr) => acc += curr).toLowerCase().split('').reduce((acc2, curr2) => curr2 == "a" ? acc2 += 1 : acc2, 0);
   }
 
   console.log(containsA())
