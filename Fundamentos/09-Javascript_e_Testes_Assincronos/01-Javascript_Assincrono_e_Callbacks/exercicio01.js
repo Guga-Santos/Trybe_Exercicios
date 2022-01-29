@@ -1,6 +1,8 @@
 // const planetDistanceFromSun = ({ name, distanceFromSun: { value, measurementUnit } }) =>
 //   `${name} is ${value} ${measurementUnit} apart from the Sun`;
 
+const { setTimeout } = require("timers");
+
 // const mars = {
 //   name: "Mars",
 //   distanceFromSun: {
@@ -28,6 +30,8 @@
 // console.log(planetDistanceFromSun(mars)); // A
 // console.log(planetDistanceFromSun(venus)); // B
 // console.log(planetDistanceFromSun(jupiter)); // C
+
+// ---------------------------------------------------------------------------------------------
 
 // const planetDistanceFromSun = ({ name, distanceFromSun: { value, measurementUnit } }) =>
 //   `${name} is ${value} ${measurementUnit} apart from the Sun`;
@@ -60,6 +64,8 @@
 // setTimeout(() => console.log(planetDistanceFromSun(venus)), 3000); // C
 // setTimeout(() => console.log(planetDistanceFromSun(jupiter)), 2000); // B
 
+// ---------------------------------------------------------------------------------------------
+
 // const getPlanet = () => {
 //     const mars = {
 //       name: "Mars",
@@ -74,3 +80,21 @@
 //       console.log(getPlanet());
 //   }, 4000);
 //   getPlanet(); // imprime Marte depois de 4 segundos
+
+// -------------------------------------------------------------------------------------------------
+
+const messageDelay = () => Math.floor(Math.random() * 5000);
+
+const getMarsTemperature = () => {
+  const maxTemperature = 58;
+  return Math.floor(Math.random() * maxTemperature);
+};
+
+const sendMarsTemperature = () => {
+    setTimeout(() => {
+        console.log(`Mars temperature is: ${getMarsTemperature()} degree Celsius`)
+    }, messageDelay());
+}
+// crie a função sendMarsTemperature abaixo
+
+sendMarsTemperature(); // imprime "Mars temperature is: 20 degree Celsius", por exemplo
