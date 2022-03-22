@@ -27,7 +27,7 @@ class App extends Component {
     <div className="App">
       <div>
      <label htmlFor="id-email">
-       Email:
+       Email
        <input 
        type="email"
        id='id-email'
